@@ -1,0 +1,115 @@
+*{
+    font-family:sans-serif;
+    background: rgb(2, 2, 44);
+    color: white;
+    
+}
+marquee{
+    background-color: rgb(2, 4, 112);
+    padding: 5px;
+}
+span{
+    color:rgb(255, 0, 0);
+}
+nav{
+    width: 100%;
+    font-family:sans-serif;
+    justify-self: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px solid rgba(250, 248, 248, 0.39);
+    border-radius: 22px;
+    margin: 20px;
+    background: linear-gradient(rgb(115, 115, 143,0.6), rgba(55, 55, 107, 0.6));
+    
+}
+nav a{
+    border: 1px solid rgba(252, 252, 252, 0.39);
+    border-radius: 100px;
+    margin: 185px;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px black;
+    transition: 0.5s;
+
+}
+nav a:hover{
+    background: white;
+    color: black;
+    text-shadow: 0px 0px 1px rgb(39, 11, 196);
+    position:relative;
+}
+p{
+    font-size: 50px;
+    text-shadow: 1px 2px 3px black;
+    margin-bottom: -2px;
+    transition: 1.8s;
+}
+p:hover{
+    text-decoration: white underline;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    background-image: url(Assets/img1.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-size: cover;
+    background-position: 45%;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    transition: 0.8s;
+}
+.profile:hover{
+    border: 2px solid rgb(60, 50, 255);
+    background-size: cover;
+    background-position: 45%;
+    box-shadow: 0px 0px 20px rgb(17, 17, 88);
+}
+img {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    
+    width: 600px;
+    height: 400px;
+    
+    position: relative;
+}
+.sq1 {
+    background-color:  rgb(98, 109, 129);
+    width: 50px;
+    height: 50px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 10%;
+    
+}
+.sq2 {
+    background:  linear-gradient(rgb(98, 109, 129), rgb(27, 27, 71));
+    width: 600px;
+    height: 30px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    
+}
+.sq3 {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 10%;
+    background-color:  rgb(98, 109, 129);
+    width: 50px;
+    height: 50px;
+    top: 0%;
+    position: absolute;
+    right: 0%;
+    
+}

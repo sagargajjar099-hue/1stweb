@@ -1,0 +1,143 @@
+body{
+    background: linear-gradient(120deg, rgb(3, 3, 34), rgb(3, 3, 41));
+    color: bisque;
+    font-family: verdana;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    margin-left: 20px;
+    background: rgba(139, 136, 136, 0.288);
+    border-radius: 22px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+}
+.menu{
+    
+}
+.menubtn{
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    background: rgba(12, 3, 65, 0.726);
+    padding: 8px;
+    color: white;
+    margin: 200px;
+    border-radius: 22px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menubtn:hover{
+    background: white;
+    color: black;
+}
+.box1{
+    border: 1px solid rgba(248, 247, 247, 0.541);
+    border-radius: 22px;
+    width: 49%;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0.12), rgba(72, 52, 143, 0.308));
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+.box{
+    display: flex;
+}
+.box2{
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    margin-left: 20px;
+    margin-right: 0px;
+    border-radius: 22px;
+    width: 49%;
+    margin-top: 40px;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0.12), rgba(72, 52, 143, 0.308));
+}
+.profile{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-image: url(Assets/profile.png);
+    background-size: 100%;
+    background-position: 10% 10% 40% 20%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 1px 8px black;
+    transition: 0.8s;
+    
+}
+.profile:hover{
+    box-shadow: 0px 0px 14px 1px rgb(63, 98, 255);
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: rgb(217, 231, 137);
+    transition: 0.6s;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 100px;
+}
+.name:hover{
+    color: white;
+    text-shadow: 0px 0px 9px rgb(255, 254, 254);
+    text-shadow: 0px 0px 9px rgb(209, 118, 118);
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 30px;
+    padding-top: 60px;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.5s;
+}
+#page {
+    padding-bottom: 30px;
+}
+.page:hover{
+    color: rgb(131, 157, 243);
+}
+.box3{
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0.12), rgba(72, 52, 143, 0.308));
+}
+.box4{
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    background: linear-gradient(30deg, rgba(255, 255, 255, 0.12), rgba(72, 52, 143, 0.308));
+}
+h1{
+    text-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    letter-spacing: 1px;
+}
+pre{
+    color: rgba(255, 235, 205, 0.452);
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    font-family: verdana;
+    text-align: left;
+}
+strong{
+    color: white;
+}
